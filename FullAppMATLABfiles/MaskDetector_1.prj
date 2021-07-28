@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\FullAppMATLABfiles\MaskDetector_1.prj" location="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\FullAppMATLABfiles" name="MaskDetector_1" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>MaskDetector_1</param.appname>
+    <param.intermediate>${PROJECT_ROOT}\MaskDetector_1</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\MaskDetector_1</param.files.only>
+    <param.output />
+    <param.checkbox>false</param.checkbox>
+    <param.logdir>${PROJECT_ROOT}\MaskDetector_1</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages>
+      <item>&lt;package displayname="USB Webcams" enabled="true" name="USB Webcams" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <unset>
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.checkbox />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}\app1editedTAM.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\avgcolor.mat</file>
+      <file>${PROJECT_ROOT}\camera-512.png</file>
+      <file>${PROJECT_ROOT}\mask2.png</file>
+      <file>${PROJECT_ROOT}\output-onlinepngtools.png</file>
+      <file>${PROJECT_ROOT}\yüzşeması.png</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamDataUtilityHelper.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamDataUtilityParser.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamDesktop.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamOnline.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\@webcam\webcam.m</file>
+    </fileset.depfun>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\MaskDetector_1" name="MaskDetector_1.ctf" optional="false">C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\FullAppMATLABfiles\MaskDetector_1\MaskDetector_1.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

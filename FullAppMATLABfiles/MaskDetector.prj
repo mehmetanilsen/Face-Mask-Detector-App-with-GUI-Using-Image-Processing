@@ -1,0 +1,162 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\FullAppMATLABfiles\MaskDetector.prj" location="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\FullAppMATLABfiles" name="MaskDetector" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>MaskDetector</param.appname>
+    <param.icon>${PROJECT_ROOT}\MaskDetector_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\MaskDetector_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\MaskDetector_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\MaskDetector_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\MaskDetector_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Mehmet Anıl Şen</param.authnamewatermark>
+    <param.email>mehmetanilsen@gmail.com</param.email>
+    <param.company />
+    <param.summary>A simple mask detector proggramed by using image processing technique.</param.summary>
+    <param.description>Upload or take a photo from your webcam and see whether you're wearing a mask. 
+Note:You must have "MATLAB Support Package for USB Webcams" installed in order to use this app with a webcam.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\mask2.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\MaskDetector\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing</param.intermediate>
+    <param.files.only>C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_redistribution_files_only</param.files.only>
+    <param.output>C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_redistribution</param.output>
+    <param.logdir>C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="USB Webcams" enabled="true" name="USB Webcams" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 Upload or take a photo from a webcam and see whether the person is wearing a mask. 
+Note: You must have "MATLAB Support Package for USB Webcams" installed in order to use this app with a webcam.</param.help.text>
+    <unset>
+      <param.version />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1editedTAM.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\avgcolor.mat</file>
+      <file>${PROJECT_ROOT}\camera-512.png</file>
+      <file>${PROJECT_ROOT}\mask2.png</file>
+      <file>${PROJECT_ROOT}\output-onlinepngtools.png</file>
+      <file>${PROJECT_ROOT}\yüzşeması.png</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamDataUtilityHelper.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamDataUtilityParser.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamDesktop.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\webcamOnline.p</file>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2021a\toolbox\matlab\webcam\supportpackages\@webcam\webcam.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing" name="readme.txt" optional="true">C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing\readme.txt</file>
+      <file location="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing" name="splash.png" optional="false">C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing\splash.png</file>
+      <file location="C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing" name="MaskDetector.exe" optional="false">C:\Anıl\ÜNİVERSİTE\MAT 116E\TERM PROJECT\MaskDetector\App\for_testing\MaskDetector.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
